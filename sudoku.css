@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:beige;
+    font-family: sans-serif;
+}
+
+#errors {
+    color: coral;
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+
+    margin: 50px auto ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
+
+#header {
+    align-items: center;
+}
+
+.Header2 {
+    margin-top: 30vh;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.footer {
+    margin-top: 50vh;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 60vh;
+    color: darkblue;
+}
+
+.Header3 {
+    margin-top: 10vh;
+    margin-bottom: 40vh;
+    align-content: space-between;
+    font-size: larger;
+    color:tomato;
+    font-weight: bold;
+}
+
